@@ -17,10 +17,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - hipster.apps.corp.local
+    - hipster.ali-avi.vmwdxb.com
     secretName: hipster-tls
   rules:
-  - host: hipster.apps.corp.local
+  - host: hipster.ali-avi.vmwdxb.com
     http:
       paths:
       - path: 
