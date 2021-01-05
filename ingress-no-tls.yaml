@@ -1,0 +1,13 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: hipstershop
+spec:
+  rules:
+  - host: hipster-no-tls.ali-avi.vmwdxb.com
+    http:
+      paths:
+      - path: 
+        backend:
+          serviceName: frontend
+          servicePort: 80
